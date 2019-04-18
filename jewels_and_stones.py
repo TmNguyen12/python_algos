@@ -18,3 +18,16 @@
 
 # S and J will consist of letters and have length at most 50.
 # The characters in J are distinct.
+
+class Solution(object):
+    def numJewelsInStones(self, J, S):
+        """
+        :type J: str
+        :type S: str
+        :rtype: int
+        """
+        counter = 0
+        for char in S:
+            if char in J:
+                counter += 1
+        return counter        
