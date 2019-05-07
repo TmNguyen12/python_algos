@@ -11,6 +11,10 @@
 * you can do i in str or i in dict to see if an item is in a list or dictionary
 * dictionary = hash map or JS object
 * list = array 
+* any quotes inside of an outside quotes do not need to be escaped if different quote length (single for double quotes)
+* If you can print it, or assign it to a variable, it’s an expression. If you can’t, it’s a statement.
+* Keyword arguments are often used for optional parameters 
+* 
 
 
 
@@ -24,10 +28,13 @@
 ### `string`
 - lower() 
   - lowercases a string
+- f"here {interopla} now" 
+  - is a way to do string interopolation similar to `` in javascript 
+- `print("its fleece was white as {}.".format('snow'))` => its fleece was white as snow.
 - 
 
 ### `integer`
-
+- int(7.7) = 7 
 
 ### `list`
 - len(i)
@@ -36,7 +43,24 @@
   - pushes something onto the back of the list 
 - arr.extend(arr2)
   - add to lists together 
+- reverse(arr)
+  - return an enumeral that is the list reversed (also works with strings)
+- max()
+- min()
+```python
+def sumDigit(num):
+    sum = 0
+    while(num):
+        sum += num % 10
+        num = int(num / 10)
+    return sum
+
+# using max(arg1, arg2, *args, key)
+print('Maximum is:', max(100, 321, 267, 59, 40, key=sumDigit))
+```
 
 ### `dict`
-
+- if 'you' in dict: 
+  - you can check to see if a key exists 
+- 
 
