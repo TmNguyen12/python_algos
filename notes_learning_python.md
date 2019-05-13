@@ -31,7 +31,8 @@
 - f"here {interopla} now" 
   - is a way to do string interopolation similar to `` in javascript 
 - `print("its fleece was white as {}.".format('snow'))` => its fleece was white as snow.
-- 
+- x.isalpha()
+  - returns true if x is an alphanumeric character
 
 ### `integer`
 - int(7.7) = 7 
@@ -47,6 +48,8 @@
   - return an enumeral that is the list reversed (also works with strings)
 - max()
 - min()
+- array.sort()
+  - mutates the list
 ```python
 def sumDigit(num):
     sum = 0
@@ -64,3 +67,5 @@ print('Maximum is:', max(100, 321, 267, 59, 40, key=sumDigit))
   - you can check to see if a key exists 
 - 
 
+### Links 
+https://www.pythoncentral.io/python-null-equivalent-none/
