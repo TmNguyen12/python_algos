@@ -23,7 +23,8 @@
 
 
 ## `builtin methods used`
-
+- range(start, stop, step)
+- 
 
 ### `string`
 - lower() 
@@ -65,7 +66,13 @@ print('Maximum is:', max(100, 321, 267, 59, 40, key=sumDigit))
 ### `dict`
 - if 'you' in dict: 
   - you can check to see if a key exists 
-- 
+- iterate through a dict
+  - key value pairs 
+    - `for key, value in myDict.items()`
+  - keys only
+    - `for key in myDict`
+  - values only
+    - `for value in myDict.values()`
 
 ### Links 
 https://www.pythoncentral.io/python-null-equivalent-none/
