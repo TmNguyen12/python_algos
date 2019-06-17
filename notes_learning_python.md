@@ -39,6 +39,7 @@
 - int(7.7) = 7 
 
 ### `list`
+- row[~i] = row[-i-1] = row[len(row) - 1 - i]
 - len(i)
   - returns length of list
 - .append(i)
@@ -51,6 +52,8 @@
 - min()
 - array.sort()
   - mutates the list
+- for idx, value in enumerate(arrayList)
+  - how to iterate through a list with index and value
 ```python
 def sumDigit(num):
     sum = 0
