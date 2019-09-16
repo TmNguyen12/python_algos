@@ -23,7 +23,8 @@
 
 
 ## `builtin methods used`
-
+- range(start, stop, step)
+- 
 
 ### `string`
 - lower() 
@@ -31,12 +32,14 @@
 - f"here {interopla} now" 
   - is a way to do string interopolation similar to `` in javascript 
 - `print("its fleece was white as {}.".format('snow'))` => its fleece was white as snow.
-- 
+- x.isalpha()
+  - returns true if x is an alphanumeric character
 
 ### `integer`
 - int(7.7) = 7 
 
 ### `list`
+- row[~i] = row[-i-1] = row[len(row) - 1 - i]
 - len(i)
   - returns length of list
 - .append(i)
@@ -47,6 +50,10 @@
   - return an enumeral that is the list reversed (also works with strings)
 - max()
 - min()
+- array.sort()
+  - mutates the list
+- for idx, value in enumerate(arrayList)
+  - how to iterate through a list with index and value
 ```python
 def sumDigit(num):
     sum = 0
@@ -62,5 +69,13 @@ print('Maximum is:', max(100, 321, 267, 59, 40, key=sumDigit))
 ### `dict`
 - if 'you' in dict: 
   - you can check to see if a key exists 
-- 
+- iterate through a dict
+  - key value pairs 
+    - `for key, value in myDict.items()`
+  - keys only
+    - `for key in myDict`
+  - values only
+    - `for value in myDict.values()`
 
+### Links 
+https://www.pythoncentral.io/python-null-equivalent-none/
