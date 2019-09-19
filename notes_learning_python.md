@@ -55,6 +55,7 @@
 - for idx, value in enumerate(arrayList)
   - how to iterate through a list with index and value
 ```python
+
 def sumDigit(num):
     sum = 0
     while(num):
