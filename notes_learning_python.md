@@ -21,6 +21,10 @@
 #### Links 
 - https://medium.com/@Ljyockey/python-syntax-a-beginners-guide-for-javascript-developers-5bdc1066ac4c
 
+## List comprehension 
+- `[expression for item in list]`
+- `[expression for item in list if conditional]
+`
 
 ## `builtin methods used`
 - range(start, stop, step)
@@ -65,6 +69,14 @@ def sumDigit(num):
 
 # using max(arg1, arg2, *args, key)
 print('Maximum is:', max(100, 321, 267, 59, 40, key=sumDigit))
+```
+- turning a list into a string 
+```python
+  myList = ['a','b','c','d']
+  word = ''.join(myList)
+  print(word) #abcd
+  comma = ', '.join(myList)
+  print(comma) # a, b, c, d
 ```
 
 ### `dict`
